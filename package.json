@@ -10,7 +10,7 @@
     "prepare": "npm run build",
     "commit": "cz"
   },
-  "repository": "git@github.com:keploy/typescript-sdk.git",
+  "repository": "git@github.com:Frey0-0/typescript-sdk.git",
   "author": "Keploy <dev@keploy.io>",
   "license": "MIT",
   "devDependencies": {
