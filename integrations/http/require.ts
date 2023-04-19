@@ -63,7 +63,6 @@ interceptor.on("request", async (req) => {
 });
 
 interceptor.on("response", async (res) => {
-  console.log("Response received", res.body);
   // @ts-ignore
   const reader = res.body.getReader();
   const { value } = await reader.read();
